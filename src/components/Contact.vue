@@ -1,5 +1,5 @@
 <template>
-    <div class="contact" v-on:mouseover="hover = true" @mouseleave="hover = false">
+    <div class="contact">
         <div class="contact_information">
             <router-link :id=id :to="{ name: 'info', params: { contactId: id, contactData: contact }}" class="link">
                 <img class="block" src="../img/block.png"/>
@@ -8,7 +8,7 @@
                     <p class="contact_link">{{contact.number}}</p>
                 </div>
             </router-link>
-            <div v-if="hover" v-on:click="showForm()" class='delete'><img src="../img/trash.png"></div>
+            <div v-on:click="showForm()" class='delete'><img src="../img/trash.png"></div>
         </div>
         <div class="modal" v-show="isEditing">
             <div class="modal_window">
@@ -29,7 +29,6 @@
         data() {
             return {
                 isEditing: false,
-                hover: true
             };
         },
         methods: {
