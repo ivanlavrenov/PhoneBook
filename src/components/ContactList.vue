@@ -39,8 +39,6 @@
 
             createContact(newContact) {
                 this.contacts.push(newContact);
-                JSON.stringify(newContact);
-                localStorage.setItem('contact', newContact)
             },
 
             showForm() {

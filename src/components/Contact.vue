@@ -101,7 +101,8 @@
         background-color: rgba(0, 0, 0, 0.5);
         transition: opacity 0.3s ease;
     }
-    .modal_window{
+
+    .modal_window {
         width: 300px;
         height: 100px;
         background-color: #E5E5E5;

@@ -28,7 +28,7 @@
         data() {
             return {
                 isEditing: false,
-                information:[]
+                information: []
             };
         },
         components: {
@@ -62,16 +62,19 @@
         display: flex;
         justify-content: center;
     }
+
     .infoContent {
         text-align: center;
         position: relative;
 
     }
-    .info_list{
+
+    .info_list {
         background: #FFFFFF;
         border-radius: 4px;
     }
-    .info_link{
+
+    .info_link {
         display: flex;
         margin-right: 20px;
         text-decoration: none;
@@ -79,7 +82,8 @@
         position: relative;
         bottom: 6px;
     }
-    .back{
+
+    .back {
         width: 12px;
         height: 20px;
         top: 17px;

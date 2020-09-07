@@ -3,7 +3,7 @@
         <div :id=id class="info_item">
             <div class="info_text_block">
                 <p class="info_item_text">{{info.title}}</p>
-                <p class="info_item_text" >{{info.value}}</p>
+                <p class="info_item_text">{{info.value}}</p>
             </div>
             <div>
                 <img v-on:click="showFormEdit()" src="../img/edit.png" class="edit"/>
@@ -47,10 +47,10 @@
             hideFormEdit() {
                 this.isEditing = false;
             },
-            showFormDelete(){
+            showFormDelete() {
                 this.isDeleting = true;
             },
-            hideFormDelete(){
+            hideFormDelete() {
                 this.isDeleting = false;
             },
         },
@@ -66,27 +66,34 @@
         min-height: 40px;
         height: auto;
     }
-    .info_item_text{
+
+    .info_item_text {
         text-align: left;
         margin: 2px;
     }
-    .info_text_block{
+
+    .info_text_block {
         padding: 12px;
     }
-    .trash{
+
+    .trash {
         margin-right: 12px;
     }
-    .edit{
+
+    .edit {
         margin-right: 18px;
     }
-    .input_edit{
+
+    .input_edit {
         width: 110px;
         margin-bottom: 20px;
     }
-    .modal_window{
+
+    .modal_window {
         padding: 10px;
     }
-    hr{
+
+    hr {
         margin: 0;
         position: relative;
         top: 1px;

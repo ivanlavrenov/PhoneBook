@@ -1,5 +1,5 @@
 <template>
-    <div id="AddInfo" >
+    <div id="AddInfo">
         <button v-on:click="openForm" v-show="!isCreating">
             Добавить информацию
         </button>
@@ -63,9 +63,10 @@
 </script>
 
 <style>
-    #AddInfo{
+    #AddInfo {
         margin-top: 10px;
     }
+
     input::-webkit-inner-spin-button {
         -webkit-appearance: none;
     }

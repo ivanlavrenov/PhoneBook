@@ -17,7 +17,8 @@
     * {
         font-family: 'Open Sans';
     }
-    button{
+
+    button {
         background-color: white;
         border-width: 1px;
         border-radius: 2px;

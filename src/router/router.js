@@ -6,7 +6,7 @@ import Info from "../components/Info";
 Vue.use(Router);
 
 let router = new Router({
-    routes:[
+    routes: [
         {
             path: '/',
             name: 'list',
